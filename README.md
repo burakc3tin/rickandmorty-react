@@ -1,30 +1,16 @@
-# React + TypeScript + Vite
+## Rick and Morty World - React Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project was created with vite. It accesses the Rick and Morty API and retrieves character information from there. Axios was used for this. Styled-Components were used for styling. Component-based animations have also been added. There are Loading State and Error Handling controls. Error Handling seems more advanced with React-Toastify. Built according to Best React Practice.
+### `Demo`
+ [ Link
+](https://rickandmorty-react-three.vercel.app/) 
 
-Currently, two official plugins are available:
+### `Screenshots`
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<img src="https://i.hizliresim.com/kpo2x6z.png" width=40% height=40%>
+ <img src="https://i.hizliresim.com/h4r8kgz.png" width=40% height=40%>
+ 
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
 
-- Configure the top-level `parserOptions` property like this:
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
